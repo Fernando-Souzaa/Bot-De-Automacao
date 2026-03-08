@@ -6,18 +6,18 @@ Esse projeto foi desenvolvido após eu aprender a criar bots de automação em P
 - Realiza pesquisas automaticamente
 
 # Código
-- import pyautogui
-- import time
+import pyautogui  
+import time  
 
 # pyautogui.write -> escrever um texto
 # pyautogui.press -> apertar uma tecla
 # pyautogui.click -> clicar em algum lugar da tela
 # pyautogui.hotkey -> aperta um atalho (hotkey)
 
-- pyautogui.PAUSE = 0.5
+pyautogui.PAUSE = 0.5   
 
-- pyautogui.press("win")
-- pyautogui.write("edge")
-- pyautogui.press("enter")
-- pyautogui.write("flamengo")
-- pyautogui.press("enter")
+pyautogui.press("win")  
+pyautogui.write("edge")  
+pyautogui.press("enter")  
+pyautogui.write("flamengo")  
+pyautogui.press("enter")  
