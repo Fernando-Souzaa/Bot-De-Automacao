@@ -6,7 +6,7 @@ Automatiza a abertura do navegador
 Realiza pesquisas automaticamente  
 
 # Código
-'''python
+```python
 import pyautogui  
 import time  
 
@@ -17,4 +17,4 @@ pyautogui.write("edge")
 pyautogui.press("enter")  
 pyautogui.write("flamengo")  
 pyautogui.press("enter")  
-'''
+```
